@@ -1,0 +1,281 @@
+.frase{
+	color: #369;
+	text-decoration: underline;
+}
+
+*{
+	font-family: sofadi;
+}
+body{
+	background-image: url(../img/bg2.png);
+	background-color: #90f013; 
+}
+
+.a,.b,.c{
+	margin: 0 auto;
+	width: 100px;
+	display: inline-block;
+	border: 3px solid black;
+	padding: 30px 0px;
+}
+#contenedor_cajas{
+	margin: 0 auto;
+	width:100%;
+	min-height:350px;
+	border:4px solid #CCCCCC;
+	padding:3%;
+	margin:auto;
+	display: 	inline-block;	
+}
+
+/*--------------------------------------------------------*/
+.caja{
+	width: 	150px;
+	height: 150px;
+	background: orange;
+	display:flex;
+	margin-bottom:20px;
+	justify-content:space-between;
+	display: 	inline-block;
+}
+
+
+#contacto{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 255, 0, 0.3);
+	visibility:false;
+	
+
+}
+.enviar{
+	width: 100%;
+	padding: 1% 0;
+	font-size: 2em;
+	background: green;
+	border: none;
+	color: white;
+
+}
+
+#formulario{
+	text-align: left;
+	padding: 2%;
+	border: solid 2px;
+}
+
+.formulario{
+	width: 20%;
+	border: 1px solid #CED5D7;
+	border-radius: 6px;
+	padding: 45px 45px 20px;
+	margin-top: 50px;
+	background-color: white;
+	box-shadow: 0px 5px 10px #B5C1C5, 0 0 0 10px #EEF5F7 inset;
+	margin: 7% auto;
+}
+
+#contenedor{
+	width: 80%;
+	height: auto;
+	margin: 0 auto;
+	background-color: white;
+}
+
+#contenido{
+	width: 80%;
+	height: 1000px;
+	text-align: center;
+}
+
+.derecha{
+	float: right;
+}
+
+.error{
+	color: red !important;
+	border: 2px solid red !important;
+}
+
+#galeria{
+	width: 300px;
+	height: 200px;
+}
+
+.izquierda{
+	float: left;
+}
+
+#frutas{
+	text-align: left;
+}
+
+.hidden{
+	display: none;
+}
+#principal{
+	width: 60%;
+	height: auto;
+	margin: 0 auto;
+	background: url(../img/logo.gif) no-repeat right bottom;
+}
+
+p{
+	margin-bottom: 2em;
+	text-align: justify;
+}
+
+#pie{
+	overflow: hidden;
+	padding: 1%;
+	background: rgb(238,250,219);
+	color: rgb(51,51,153);
+
+}
+
+#pie h3{
+	width: 20%;
+	display: inline-block;
+}
+
+#principal h2{
+	padding: 2%;
+	text-align: center;
+	font-size: 2em;
+	color:rgb(51,51,153);
+	border-top: 2px solid #90f013;
+	border-bottom: 2px solid #90f013;
+}
+
+#tiempo{
+	text-align: center;
+	font-size: 6em;
+}
+
+#titulo{
+	padding-top: 2%;
+	text-align: center;
+	font-size: 3.5em;
+	color:rgb(51,51,153);
+	text-shadow: 0 0 30px #90f013;
+}
+
+
+#galeria, #galeria * {box-sizing:border-box}
+#galeria {
+border: 1px solid #EAEAEA;  /* Borde de la galería */
+padding: 10px;
+padding-bottom: 0;
+background: white;  /* Fondo de la galería */
+width: 410px;  /* Ancho de la galería */
+}
+#galeria_miniaturas {
+display: table;
+margin: 0 auto;
+}
+#imgGaleria {
+border: 1px solid #F2F2F2;  /* Borde de la imagen */
+padding: 3px;
+width: x; /* Ancho de la imagen */
+height: x; /* Alto de la imagen */
+}
+.miniatura {
+width:  60px;  /* Ancho de las miniaturas */
+height:  60px;  /* Alto de las miniaturas */
+float: left;
+cursor: pointer;
+padding: 5px;
+margin: 10px 5px;
+}
+.miniatura:hover {
+opacity:.8;   /* Opacidad */
+-moz-opacity:.8;
+-khtml-opacity:.8;
+filter:alpha(opacity=80);
+}
+.miniatura:active {
+opacity:1;
+-moz-opacity:1;
+-khtml-opacity:1;
+filter:alpha(opacity=80);
+}
+
+.container {
+  position: relative;
+  width: 50%;
+  display: inline-block;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.oculto {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #989ab1;
+}
+
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+table{
+		margin: 0px auto 20px auto;
+		border-collapse: collapse;
+		text-align: left;
+	}
+	
+	table thead tr th{
+		font-weight: normal;
+	}
+	
+	table tbody tr td, table tfoot tr td, table thead tr th{
+		padding: 6px;
+		vertical-align: top;
+	}
+	
+	table tfoot tr td{
+		text-align: right;
+	}
+	
+	table.lista tbody tr td{
+		border-bottom: 1px solid #ddd;
+	}
+	
+	table.lista thead th, table.formulario thead th{
+		color: #369;
+		border-bottom: 1px solid #CCC;
+	}
+
+	table.lista tfoot td, table.formulario tfoot td{
+		color: #369;
+	}
+
+	table.formulario tfoot td{
+		border-top: 1px solid #CCC;
+	}
+.inicio{
+	transform: scale(0.5);
+	filter: sepia(10);
+}
+
+.seleccionado{
+	transform: scale(1);
+	filter: brightness(1.5);
+}

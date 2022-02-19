@@ -13,3 +13,10 @@ h1,h3{
     width: 30%;
     border: 3px solid green;
 }
+body{
+    padding: 50px;
+}
+table,#formulario{
+    width: 40% !important;
+    
+}

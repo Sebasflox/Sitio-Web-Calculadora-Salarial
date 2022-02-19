@@ -5,18 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Agenda</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href="css/estilos2.css" rel="stylesheet" type="text/css">
+  <link href="font/fuentes.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-    <header>
+    
+    <div id="formulario" class="m-auto">
+        <label for="">Cedula</label>
+        <input class="form-control" id="cedula" type="number" placeholder="Digite su cedula" required> <br><br>
+        <label for="">Nombre</label>
+        <input class="form-control" id="nombre" type="text" placeholder="Digite su nombre" required> <br><br>
+        <label for="">Apellidos</label>
+        <input class="form-control" id="apellidos" type="text" placeholder="Digite sus apellidos" required> <br><br>
+        <label for="">Telefono</label>
+        <input class="form-control" id="telefono" type="number" placeholder="Digite su número celular" required> <br><br>
+        <label for="">Provincia</label>
+        <input class="form-control" id="provincia" type="text" placeholder="Digite su provincia" required> <br><br>
+        <button id="agregar" class="btn btn-success">Guardar</button> <br><br>
+    </div>
 
-    </header>
+    <table id="tdatos" class="lista">
+        <thead>
+          <tr>
+            <th>Cedula</th>
+            <th>Nombre</th>
+            <th>Apellidos</th>
+            <th>Telefono</th>
+          </tr>
+        </thead>
+        <tbody id="datosTabla">
+        </tbody>
+      </table>
 
-    <main>
-        
-    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="js/codigoAgenda.js"></script>
 
-    <footer>
-
-    </footer>
 </body>
 </html>

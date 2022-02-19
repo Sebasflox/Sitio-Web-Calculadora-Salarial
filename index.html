@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad #1</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <div class="contenedor mt-5 mb-5">
+        <h2 class="text-center mb-3">Datos del Trabajador</h2>
+        <div class="mb-3">
+            <label for="nombre" class="form-label">Nombre</label>
+            <input value="" type="text" class="form-control" id="nombre" >
+        </div>
+        <div class="mb-3">
+            <label for="edad" class="form-label">Edad</label>
+            <input value="edad" type="number" class="form-control" id="edad" >
+        </div>
+        <div class="mb-3">
+            <label for="edad" class="form-label">Titulación</label>
+            <select name="" id="titulo" class="form-control">
+                <option value="tecnico">Técnico</option>
+                <option value="bachiller">Bachiller</option>
+                <option value="licenciado">Licenciado </option>
+            </select>
+
+        </div>
+        <div class="mb-3">
+            <label for="salario" class="form-label">Salario Ordinario</label>
+            <input value="salario" type="number" class="form-control" id="salario" >
+        </div>
+        <div class="mb-3">
+            <label for="comisiones" class="form-label">Monto Comisiones</label>
+            <input value="comisiones" type="number" class="form-control" id="comisiones" >
+        </div>
+        <div class="mb-3">
+            <label for="horasextra" class="form-label">Monto horas extra</label>
+            <input value="horasextra" type="number" class="form-control" id="horasextra" >
+        </div>
+        <div class="d-grid gap-2 mb-3">
+            <button class="btn btn-outline-primary">Calcular</button>
+        </div>
+        <div class="d-grid gap-2">
+            <button class="btn btn-outline-secondary">cancelar</button>
+        </div>
+    </div>
+    
+    <div class="contenedor">
+        <h1>Cálculadora Salarial Costa Rica</h1>
+
+        <h3>Ingresos Salariales</h3>
+        <p> <b>Salario ordinario: </b> ¢</p>
+        <p> <b>Dedicación Exclusiva: </b> ¢</p>
+        <p> <b>Comisiones: </b> ¢</p>
+        <p> <b>Monto Horas extra: </b> ¢</p>
+        <p> <b>Salarió Neto: </b> ¢</p>
+
+        <h3> Deducciones </h3>
+        <p> <b>Impuesto del Salario: </b> ¢</p>
+        <p> <b>Enfermedad y Maternidad(5.5%) </b> ¢</p>
+        <p> <b>Invalidez y Maternidad(3.84%): </b>¢ </p>
+        <p> <b>Aporte trabajador Banco Popular(1%): </b> ¢</p>
+        <p> <b>Asociación Solidarista(5%): </b> ¢</p>
+        <h3> Totales </h3>
+        <p> <b>Total de Deducciones: </b>¢ </p>
+        <p> <b>Salario neto:</b> ¢</p>
+    </div>
+
+</body>
+</html>

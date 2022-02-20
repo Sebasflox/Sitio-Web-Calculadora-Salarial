@@ -40,10 +40,10 @@
             <input value="horasextra" type="number" class="form-control" id="horasextra" >
         </div>
         <div class="d-grid gap-2 mb-3">
-            <button class="btn btn-outline-primary">Calcular</button>
+            <button id = agregar class="btn btn-outline-primary">Calcular</button>
         </div>
         <div class="d-grid gap-2">
-            <button class="btn btn-outline-secondary">cancelar</button>
+            <button id = limpiar class="btn btn-outline-secondary">cancelar</button>
         </div>
     </div>
     
@@ -51,22 +51,25 @@
         <h1>Cálculadora Salarial Costa Rica</h1>
 
         <h3>Ingresos Salariales</h3>
-        <p> <b>Salario ordinario: </b> ¢</p>
-        <p> <b>Dedicación Exclusiva: </b> ¢</p>
-        <p> <b>Comisiones: </b> ¢</p>
-        <p> <b>Monto Horas extra: </b> ¢</p>
-        <p> <b>Salarió Neto: </b> ¢</p>
+        <div id="Show">
+            <p id="tSalario"> <b>Salario ordinario: </b> ¢</p>
+            <p id="tDedicacion"> <b>Dedicación Exclusiva: </b> ¢</p>
+            <p id="tComisiones"> <b>Comisiones: </b> ¢</p>
+            <p id="tHorasExtra"> <b>Monto Horas extra: </b> ¢</p>
+            <p id="tNeto"> <b>Salarió Neto: </b> ¢</p>
 
-        <h3> Deducciones </h3>
-        <p> <b>Impuesto del Salario: </b> ¢</p>
-        <p> <b>Enfermedad y Maternidad(5.5%) </b> ¢</p>
-        <p> <b>Invalidez y Maternidad(3.84%): </b>¢ </p>
-        <p> <b>Aporte trabajador Banco Popular(1%): </b> ¢</p>
-        <p> <b>Asociación Solidarista(5%): </b> ¢</p>
-        <h3> Totales </h3>
-        <p> <b>Total de Deducciones: </b>¢ </p>
-        <p> <b>Salario neto:</b> ¢</p>
+            <h3> Deducciones </h3>
+            <p> <b>Impuesto del Salario: </b> ¢</p>
+            <p> <b>Enfermedad y Maternidad(5.5%) </b> ¢</p>
+            <p> <b>Invalidez y Maternidad(3.84%): </b>¢ </p>
+            <p> <b>Aporte trabajador Banco Popular(1%): </b> ¢</p>
+            <p> <b>Asociación Solidarista(5%): </b> ¢</p>
+            <h3> Totales </h3>
+            <p> <b>Total de Deducciones: </b>¢ </p>
+            <p> <b>Salario neto:</b> ¢</p>
+        </div>
     </div>
 
+    <script src="js/codigoCalculadora.js"></script>
 </body>
 </html>

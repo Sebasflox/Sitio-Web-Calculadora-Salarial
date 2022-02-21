@@ -55,6 +55,8 @@ document.querySelector("#agregar").onclick=function(){
     document.querySelector("#tDedu").innerHTML= "Total de Deducciones: ¢" + Total_Dedu;
     document.querySelector("#tBruto").innerHTML= "Salario neto: ¢" + parseInt(Neto - Total_Dedu);
 
+    document.getElementById('contenedor').style.display = 'block';
+
 }
 
 //Funcion programada para el boton Eliminar, esta funcion deja todos los campos en blanco

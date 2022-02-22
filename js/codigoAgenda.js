@@ -4,6 +4,7 @@ document.querySelector("#agregar").onclick= function () {
     let apellidos = document.querySelector("#apellidos").value;
     let telefono = document.querySelector("#telefono").value;
     let provincia = document.querySelector("#provincia").value;
+    let hoy = new Date();
     
     document.querySelector("#datosTabla").innerHTML += `
         <tr>
@@ -12,6 +13,7 @@ document.querySelector("#agregar").onclick= function () {
             <td>${apellidos}</td>
             <td>${telefono}</td>
             <td>${provincia}</td>
+            <td>${hoy.toDateString()}</td>
             <td><a class="editar"><img class="edit" src="img/edit.gif" /></a></td>
             <td><a class="elimina"><img class="delete" src="img/delete.png" /></a></td>
         </tr>
